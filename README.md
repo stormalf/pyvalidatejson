@@ -85,6 +85,7 @@ It prints only the incorrect JSON file with first issue found into the json file
     JSONDecodeError : Extra data: line 1 column 26 (char 25)
     ./fail8.json
     JSONDecodeError : Expecting property name enclosed in double quotes: line 1 column 22 (char 21)
+    Number of directories scanned : 18, number of files scanned :  36
 
 ## release notes
 
