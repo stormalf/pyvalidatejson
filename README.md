@@ -17,6 +17,7 @@ It prints only the incorrect JSON file with first issue found into the json file
     optional arguments:
     -h, --help     show this help message and exit
     -V, --version  Display the version of pyvalidatejson
+    -d, --debug    Print debug information
 
 ## Examples :
 
@@ -84,3 +85,9 @@ It prints only the incorrect JSON file with first issue found into the json file
     JSONDecodeError : Extra data: line 1 column 26 (char 25)
     ./fail8.json
     JSONDecodeError : Expecting property name enclosed in double quotes: line 1 column 22 (char 21)
+
+## release notes
+
+1.0.0   initial version
+
+1.0.1   Adding debug parameter and printing number of files and directories scanned
